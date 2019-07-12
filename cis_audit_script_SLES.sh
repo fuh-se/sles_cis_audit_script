@@ -1,3 +1,4 @@
+#Author : fuh-se
 #check to see if script is being run as root
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
